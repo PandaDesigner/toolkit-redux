@@ -1,0 +1,25 @@
+.poke-container {
+  box-sizing: border-box;
+  //width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.poke-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poke-load {
+  padding: 8px 16px;
+  border-radius: 24px;
+}
+
+.poke-load-true {
+  background-color: green;
+}
+
+.poke-load-false {
+  background-color: red;
+}
